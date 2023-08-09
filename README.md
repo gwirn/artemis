@@ -14,13 +14,13 @@ Visual help to go through your jump list faster. Displays two floating windows. 
 
 ```lua
 vim.keymap.set('n', '<leader>jl', function ()
- require("poseidon").buffer_nav()
+ require("artemis").visjump()
 end, {desc = 'navigate [J]ump [L]ist'})
 ```
 
 ## Keymaps in poseidon
 **Keymaps are only used in poseidon and are remapped to the original keymaps when poseidon is closed**
-| Key            | Action                                     |
-| -------------- | ------------------------------------------ |
-| `<CR>`         | Jump to position of current line in Artemis|
-| `<ESC>`        | Close Artemis without action               |
+| Key            | Action                                      |
+| -------------- | ------------------------------------------- |
+| `<CR>`         | Jump to position of current line in Artemis |
+| `<ESC>`        | Close Artemis without action                |
