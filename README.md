@@ -22,5 +22,5 @@ end, {desc = 'navigate [J]ump [L]ist'})
 **Keymaps are only used in poseidon and are remapped to the original keymaps when poseidon is closed**
 | Key            | Action                                     |
 | -------------- | ------------------------------------------ |
-| `<CR>`         | Jump to buffer of current line in Artemis  |
+| `<CR>`         | Jump to position of current line in Artemis|
 | `<ESC>`        | Close Artemis without action               |
