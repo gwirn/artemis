@@ -1,0 +1,29 @@
+================================================================================
+                                                                     *artemis*
+
+This Plugin helps you to navigate the buffer list and see the context of the
+jumps.
+
+Example:
+
+                                                            *artemis.visjump()*
+artemis.visjump()
+    Shows two floating windows.
+    Artemis: here you can navigate with vim motions like any other file. It
+    shows the content of the line of each entry in the jumplist.
+    Preview: shows the surrounding content (lines in the file) of the current
+    line in Artemis.
+    >
+    artemis.visjump()
+<
+    To select a jump and go to it:
+        Navigate to the line in the floating window Artemis and press <CR>
+    To close the floating windows without any action:
+        Press <ESC>
+
+    This keymappings get assigned when |artemis.visjump()| is used and reset
+    afterwards to the keymappings that where there before. So it will change
+    these mappings only for the time when the floating window is open.
+
+
+vim:tw=78:ts=8:ft=help:norl:
